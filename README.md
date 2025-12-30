@@ -1,1 +1,143 @@
-# TRABAJOS
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" description="Formulario de contacto" author="Antonio">
+    <title>Formulario</title>
+</head>
+<body>
+   <header>
+       <h1>Portafolio de Antonio Fernández</h1> 
+         <nav>
+              <ul>               
+                <li><a href="#sobre mí">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#idiomas">Idiomas</a></li>
+                <li><a href="#experiencia profesional">Experiencia Profesional</a></li>
+                <li><a href="#estudios">Estudios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+              </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section id="sobre mí">
+            <h2>Sobre mí</h2>
+                <img src="../PORTAFOLIO/images/valencia.jpg" alt="Foto de Antonio Fernández" width="300" height="200">
+                    <p>Soy Antonio Fernández, 
+                        actualmente un estudiante online de un grado 
+                        superior de ASIR. Tengo 25 años y una vez finalice
+                        mis estudios,
+                        busco la oportunidad
+                        de un empleo estable y 
+                        duradero el cuál pueda aprender de todo en 
+                        ámbito del trabajo que este .</p>
+
+                    <p>Me encanta aprender nuevas cosas 
+                        este o no relacionado con mis estudios 
+                        y 
+                        mejorar mis habilidades y
+                        conocimiento constantemente.</p>
+                        
+                    <p>En mi tiempo libre, 
+                        disfruto de la naturaleza 
+                        el fútbol,
+                        escuchar música
+                        y jugar a videojuegos o de mesa.
+                        También me gusta practicar
+                        deportes ya sea gym, fútbol,
+                        padel o ping-pong.
+                        Amante de los perritos y tranquilidad.</p>
+        </section>
+        <section id="habilidades">
+                <h2>Habilidades</h2>
+
+                        <ul>
+                            <li>Atento y comunicativo</li>
+                            <li>Compañerismo</li>
+                            <li>Puntualidad</li>
+                            <li>Respetuoso y obediente con los compañeros y zona de trabajo</li>
+                            <li>Fácil aprendizaje y disciplinado</li>
+                            <li>Trabajador y trabajo en equipo</li>
+                            <li>Creatividad</li>
+                        </ul>
+                 
+                    
+        </section>
+        <section id="idiomas">         
+            <h2> Idiomas</h2>
+                    <ul>
+                        <li>Español: Nativo</li>
+                        <li>Valenciano: Nativo</li>
+                        <li>Inglés: Nivel Básico</li>
+                    </ul>
+        </section>
+        <section id="experiencia profesional">
+            <h2>Experiencia Profesional</h2>
+                    <ul>
+                        <li>Reponedor en Mercadona (2019-2020)</li>
+                        <li>Atención al cliente en Telepizza (2017)</li>
+                        <li>Trabajador agrícola zona solar (2018)</li>
+                    </ul>
+        </section>
+   
+        <section id="estudios">
+            <h2>Estudios</h2>
+                <article>
+                    <nav><h3>IES Joan Fuster de Bellreguard 2016</h3></nav> 
+                            <ul>
+                                <li>Graduado en Educación Secundaria Obligatoria</li>
+                            </ul>
+                            <a href="https://portal.edu.gva.es/iesjoanfuster/">IES Joan Fuster de Bellreguard</a>           
+                </article>
+
+                <article>
+                    <nav><h3>IES Enric Valor de Pego 2020</h3></nav>
+                            <ul>
+                                <li>CFGM Técnico en Sistemas Microinformáticos y Redes</li>
+                            </ul> 
+                            <a href="https://portal.edu.gva.es/03007613/">IES Enric Valor de Pego</a>
+                </article>
+
+                <article>
+                    <nav><h3>Formación Complementaria</h3></nav>
+                            <ul>
+                                <li>Curso Manipulación Alimentos (2016)</li>
+                                <li>Curso de mozo de almacén (2025)</li>
+                                <li>Curso de operaciones auxiliares de almacenaje (2025)</li>
+                                <li>Curso de preparación de pedidos (2025)</li>
+                                <li>Curso de manipulación de cargas con carretillas elevadoras (2025)</li>
+                            </ul>
+                        
+                </article>
+        </section>
+   
+   
+    </main>
+    <footer>
+        <section id="contacto">
+            <h2>Contacto</h2>
+               <form >
+                    <label for="país">País:</label>
+                    <input type="text" id="país" name="país" placeholder="Tu país"><br><br>
+
+                    <label for="provincia">Provincia</label>
+                    <input type="text" id="provincia" name="provincia" placeholder="Tu provincia"><br><br>
+
+                    <label for="municipio">Municipio:</label>
+                    <input type="text" id="municipio" name="municipio" placeholder="Tu municipio"><br><br>
+
+                    <label for="email2">Email:</label>
+                    <input type="email"  id="email2" name="email2" placeholder="ejemplo_123@gmail.com"><br><br>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" required  name="telefono" id="telefono" pattern="[0-9]{9}" placeholder="número de contacto"><br><br>
+
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea><br><br>
+               </form>
+
+        </section>
+    </footer>
+</body>
+</html>
